@@ -2,7 +2,7 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bh5v7skmp36yr"
+uid="uid://dnfu6ix40r3mt"
 path="res://.godot/imported/fusion-pixel-12px-proportional-zh_hans.otf-526495296c4bda602aa4b176f90cb133.fontdata"
 
 [deps]
@@ -21,6 +21,7 @@ msdf_pixel_range=8
 msdf_size=48
 allow_system_fallback=true
 force_autohinter=false
+modulate_color_glyphs=false
 hinting=1
 subpixel_positioning=4
 keep_rounding_remainders=true
