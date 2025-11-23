@@ -24,6 +24,7 @@ APIManager="*res://script/ai/APIManager.gd"
 GameSaveManager="*res://script/GameSaveManager.gd"
 SaveLoadUIManager="*res://scene/ui/SaveLoadUIManager.tscn"
 MemoryManager="*res://script/ai/memory/MemoryManager.gd"
+GDAIMCPRuntime="*res://addons/gdai-mcp-plugin-godot/gdai_mcp_runtime.gd"
 
 [display]
 
@@ -36,6 +37,10 @@ display/window/dpi/allow_hidpi=true
 [dotnet]
 
 project/assembly_name="MyTown"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdai-mcp-plugin-godot/plugin.cfg")
 
 [input]
 
